@@ -8,10 +8,6 @@
     color: white;
 }
 
-#b1 {
-    background-image: url(lpem.png);
-}
-
 .p2 {
     font-size: 20px;
     font-family: "Work Sans", sans-serif;
@@ -107,7 +103,7 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
-
+*/
 .img3 {
     display: block;
     margin-left: auto;
@@ -117,7 +113,7 @@ nav a:hover::before {
 
 .img4 {
     height: 60%;
-}*/
+}
 
 .container {
     /*background-color: red;*/
