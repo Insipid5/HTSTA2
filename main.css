@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
-  
-  .p1 {
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+
+.p1 {
     text-align: center;
     font-size: 50px;
-    
-    font-family: 'Work Sans', sans-serif;
+
+    font-family: "Work Sans", sans-serif;
     color: white;
 }
 
@@ -14,122 +14,116 @@
 
 .p2 {
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     color: white;
 }
 
 .img1 {
-   width: 100%;
-   height: 100px;
+    width: 100%;
+    height: 100px;
 }
 
 #img1 {
-  width: 100px;
-  height: 50px;
-  
-  padding-left:1200px ;
+    width: 100px;
+    height: 50px;
+
+    padding-left: 1200px;
 }
 
 .row {
-  display: flex;
+    display: flex;
 }
 
 .column {
-  flex: 33.33%;
-  padding: 5px;
-  background-color: #222;
-  text-align: center;
-  font-family: 'Work Sans', sans-serif;
-  color: white;
+    flex: 33.33%;
+    padding: 5px;
+    background-color: #222;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    color: white;
 }
-
 
 body {
-	margin: 0;
-	background: #222;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
-}
-
-.container {
-	width: 80%;
-	margin: 0 auto;
+    margin: 0;
+    background: #222;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
 }
 
 header {
-  background: #55d6aa;
-  
+    background: #55d6aa;
 }
-
+/*
 header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
+    content: "";
+    display: table;
+    clear: both;
+}*/
 
 .logo {
-  float: left;
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
 }
 
-nav {
-  float: right;
+.container ul {
+    list-style: none;
+    display: inline-block;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
+.container li {
+    display: inline-block;
 }
 
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-
-  position: relative;
+.container a {
+    display: inline-block;
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
-nav a {
-  color: #444;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 18px;
-  
+.container img {
+    width: 80px;
 }
 
-nav a:hover {
-  color: #000;
+.container a:hover {
+    color: #000;
 }
-
+/*
 nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #444;
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #444;
 
-  position: absolute;
-  top: 0;
-  width: 0%;
+    position: absolute;
+    top: 0;
+    width: 0%;
 
-  transition: all ease-in-out 250ms;
+    transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
-  width: 100%;
+    width: 100%;
 }
 
 .img3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
 }
 
 .img4 {
-  height: 60%;
+    height: 60%;
+}*/
+
+.container {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
