@@ -58,6 +58,7 @@ body {
 
 header {
   background: #55d6aa;
+  
 }
 
 header::after {
@@ -69,6 +70,8 @@ header::after {
 .logo {
   float: left;
   padding: 10px 0;
+  display: flex;
+  align-items: center;
 }
 
 nav {
@@ -79,6 +82,8 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 nav li {
@@ -93,7 +98,8 @@ nav a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
+  
 }
 
 nav a:hover {
