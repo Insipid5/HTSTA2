@@ -28,15 +28,31 @@
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.row1 {
+    display: flex;
 }
 
 .column {
+    padding: 5px;
+    background-color: #222;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    display: inline-block;
+    background-color: #55d6aa;
+}
+
+.column1 {
     flex: 33.33%;
     padding: 5px;
     background-color: #222;
     text-align: center;
     font-family: "Work Sans", sans-serif;
     color: white;
+
 }
 
 body {
@@ -123,3 +139,5 @@ nav a:hover::before {
     width: 80%;
     margin: 0 auto;
 }
+
+
