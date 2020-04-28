@@ -29,6 +29,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .row1 {
@@ -41,7 +43,7 @@
     text-align: center;
     font-family: "Work Sans", sans-serif;
     color: white;
-    display: inline-block;
+    
     background-color: #55d6aa;
 }
 
