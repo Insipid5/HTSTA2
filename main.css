@@ -53,18 +53,16 @@ body {
     margin: 0;
     background: #222;
     font-family: "Work Sans", sans-serif;
-    font-weight: 800;
-}
-
-header {
-    background: #55d6aa;
+    
 }
 
 
 .logo {
     padding: 10px 0;
+    margin-left: 100px;
     display: flex;
     align-items: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
 }
 
 .container ul {
@@ -86,6 +84,7 @@ header {
 
 .container img {
     width: 80px;
+    margin-right: 100px;
 }
 
 .container a:hover {
@@ -96,8 +95,72 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    background-color: #55d6aa;
 }
 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.container2 {
+    margin-top: 200px;
+    border-radius: 5px;
+    background-color: #55d6aa;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+        background-color: #55d6aa;
+        display: grid;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 95%;
+        padding: 0px ;
+        margin: 15px;
+        margin-top: 10%;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+    }
+    
+    .container a {
+    display: grid;
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 95%;
+    }
+
+    .container img {
+        width: 50px;
+        padding: 0px ;
+        margin: 50px;
+    }
+
+  }
