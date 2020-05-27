@@ -68,7 +68,7 @@ body {
 .container ul {
     list-style: none;
     display: inline-block;
-    margin-right: 600px;
+    
 }
 
 .container li {
@@ -94,7 +94,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin: 0 auto;
@@ -130,7 +130,12 @@ input[type=submit] {
 
 @media only screen and (max-width: 600px) {
 
-    .container {
+.title , .text {
+    margin-left: 25%;
+}
+
+.container {
+        top: 0;
         margin: 0;
         padding: 0;
         width: 25%;
@@ -140,15 +145,15 @@ input[type=submit] {
         background-color: #55d6aa;
         display: grid;
         align-items: center;
-    }
+}
 
-    .logo {
+.logo {
         font-size: 95%;
         padding: 0px ;
         margin: 15px;
         margin-top: 10%;
         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
-    }
+}
     
     .container a {
     display: grid;
@@ -164,7 +169,7 @@ input[type=submit] {
         margin: 50px;
     }
 
-  }
+}
 
 .dropbtn {
     background-color: #444;
