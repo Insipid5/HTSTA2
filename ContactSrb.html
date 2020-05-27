@@ -18,10 +18,13 @@
                 <li><a href="AboutSrb.html">о страници</a></li>
                 <li><a href="ContactSrb.html">контакт</a></li>
                 <li><a href="ProductsSrb.html">производи</a></li>
-            </ul>
-            <a  href="ContactEng.html" >
-                <img src="EngFlag.png" width="50px">
-            </a>
+                <div class="dropdown">
+                  <button class="dropbtn">Језик</button>
+                  <div class="dropdown-content">
+                    <a href="ContactEng.html"><img src="EngFlag.png"></img></a>
+                    <a href="ContactRus.html"><img src="RusFlag.jpg"></img></a>
+                  </div>
+          </div>                 
     </div>
  
 
@@ -43,7 +46,7 @@
   </div>
 
   <div class="container2">
-    <form action="action_page.php">
+    <form>
   
       <label for="fname">Ime</label>
       <input type="text" id="fname" name="firstname" placeholder="Tvoje ime">
@@ -57,7 +60,7 @@
       <label for="subject">Tema</label>
       <textarea id="subject" name="subject" placeholder="Napisite nesto" style="height:200px"></textarea>
   
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit" placeholder="прихвати">
   
     </form>
   </div>
