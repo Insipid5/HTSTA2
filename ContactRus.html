@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="logo">CLASSCHAIRS</h2>
+            <ul>
+                <li><a href="HomeEng.html">Дом</a></li>
+                <li><a href="AboutEng.html">Около</a></li>
+                <li><a href="ContactEng.html">контакт</a></li>
+                <li><a href="ProductsEng.html">Товары</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Языки</button>
+                    <div class="dropdown-content">
+                      <a href="ContactEng.html"><img src="EngFlag.png"></img></a>
+                      <a href="ContactSrb.html"><img src="SrbFlag.jpg"></img></a>
+                    </div>
+            </div>                                           
+    </div>   
+
+    <p class="title">Страница контактов</p>
+
+    <div class="row">
+      <div class="column">
+            <img src="addresslogo.png"><br>
+            Адрес: Rue de Luxembourg 14    
+      </div>
+      <div class="column">
+            <img src="emaillogo.png"><br>
+            Электронное письмо: SpicyChairs@gmail.com  
+      </div>
+      <div class="column">
+            <img src="phonelogo.png"> <br>
+            Телефон: 365 423 326 324
+      </div>
+    </div>
+    
+    <div class="container2">
+      <form action="action_page.php">
+    
+        <label for="fname">Имя</label>
+        <input type="text" id="fname" name="firstname" placeholder="Ваше имя..">
+    
+        <label for="lname">Фамилия</label>
+        <input type="text" id="lname" name="lastname" placeholder="Твоя фамилия..">
+  
+        <label for="Country">Страна</label>
+        <input type="text" id="country" name="country" placeholder="Твоя страна..">
+  
+        <label for="subject">Тема</label>
+        <textarea id="subject" name="subject" placeholder="Напиши что-нибудь.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+  
+  
+</body>
+</html>
