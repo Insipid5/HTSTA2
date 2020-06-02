@@ -130,44 +130,89 @@ input[type=submit] {
 
 @media only screen and (max-width: 600px) {
 
-.title , .text {
+.dropbtn {
+    background-color: #444;
+    color: white;
+    margin-left: 10%;
+    padding: 16px;
+    font-size: 95%;
+    border: none;
+}
+      
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    width: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.title , .text , .column , .container2 {
     margin-left: 25%;
 }
 
+.column {
+    max-width: 70%;
+
+}
+
+.column img {
+    width: 200px;
+    height: 200px;
+}
+
+.column text {
+    font-size: 5px;
+    margin: 0px;
+}
+
 .container {
-        top: 0;
-        margin: 0;
-        padding: 0;
-        width: 25%;
-        height: 100%;
-        position: fixed;
-        overflow: auto;
-        background-color: #55d6aa;
-        display: grid;
-        align-items: center;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed;    
+    background-color: #55d6aa;
+    display: grid;
+    align-items: center;
 }
 
 .logo {
-        font-size: 95%;
-        padding: 0px ;
-        margin: 15px;
-        margin-top: 10%;
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+    font-size: 95%;
+    padding: 0px ;
+    margin: 15px;
+    margin-top: 10%;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
 }
     
-    .container a {
+.container a {
     display: grid;
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 95%;
-    }
+}
 
-    .container img {
-        width: 50px;
-        padding: 0px ;
-        margin: 50px;
-    }
+.container img {
+    width: 50px;
+    padding: 0px ;
+    margin: 50px;
+}
 
 }
 
