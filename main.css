@@ -130,6 +130,47 @@ input[type=submit] {
 
 @media only screen and (max-width: 600px) {
 
+
+    
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+}
+    
+.column {
+    margin: 5px;
+    padding: 5px;
+    background-color: #222;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    background-color: #55d6aa;
+    flex-direction: column;
+    max-width: 70%;
+}
+    
+.column img {
+    max-width: 70%;
+    width: 200px;
+    height: 200px;
+}
+    
+.column div {
+    max-width: 70%;
+    width: 70%;
+}
+
+.column text {
+    font-size: 5px;
+    margin-left: 30%;
+    max-width: 70%;
+    padding: 0px;
+
+}  
+
 .dropbtn {
     background-color: #444;
     color: white;
@@ -148,36 +189,21 @@ input[type=submit] {
     display: none;
     position: absolute;
     background-color: #444;
-    width: 10px;
     margin-left: 10%;
     margin-right: 10%;
 }
   
 .dropdown-content a {
     color: black;
-    padding: 0px;
-    text-decoration: none;
+    padding: 2px;
     display: block;
+    width: 70px;
+    height: 20px;
 }
 
 
 .title , .text , .column , .container2 {
     margin-left: 25%;
-}
-
-.column {
-    max-width: 70%;
-
-}
-
-.column img {
-    width: 200px;
-    height: 200px;
-}
-
-.column text {
-    font-size: 5px;
-    margin: 0px;
 }
 
 .container {
@@ -206,13 +232,15 @@ input[type=submit] {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 95%;
+    padding: 2px;
 }
 
 .container img {
-    width: 50px;
     padding: 0px ;
-    margin: 50px;
+    width: 70px;
+    height: 30px;
 }
+
 
 }
 
