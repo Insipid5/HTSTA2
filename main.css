@@ -42,6 +42,7 @@
 .column img {
     width: 500px;
     height: 500px;
+
 }
 
 
@@ -53,7 +54,7 @@ body {
     margin: 0;
     background: #222;
     font-family: "Work Sans", sans-serif;
-    
+    text-align: center;
 }
 
 
@@ -99,6 +100,7 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: #55d6aa;
+    z-index: 1;
 }
 
 input[type=text], select, textarea {
