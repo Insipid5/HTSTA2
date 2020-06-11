@@ -1,29 +1,55 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+.colorW {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}   
+
+.ColorA {
+    display: flex;
+    align-items: center;
+}
+
+.ColorB {
+    position: relative;
+}
+
+.ColorC {
+    background-color: #55d6aa;
+}
+
+.ColorD {
+    display: inline-block;
+}
+
+.ColorE {
+    background-color: #222;
+}
+
+.ColorF {
+    color: white;
+}
+
+.colorL {
+    display: block;
+}
 
 .title {
-    text-align: center;
     font-size: 50px;
-    font-family: "Work Sans", sans-serif;
-    color: white;
 }
 
 .text {
     font-size: 20px;
-    font-family: "Work Sans", sans-serif;
-    color: white;
 }
 
 .classimg {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 35%;
 }
 
 .row {
-    display: flex;
     flex-wrap: wrap;
-    position: relative;
     justify-content: center;
     flex-direction: row;
 }
@@ -31,11 +57,7 @@
 .column {
     margin: 5px;
     padding: 5px;
-    background-color: #222;
-    text-align: center;
-    font-family: "Work Sans", sans-serif;
-    color: white;
-    background-color: #55d6aa;
+    
     flex-direction: column;
 }
 
@@ -45,7 +67,6 @@
 
 }
 
-
 .column div {
     width: 500px;
 }
@@ -53,31 +74,21 @@
 body {
     margin: 0;
     background: #222;
-    font-family: "Work Sans", sans-serif;
-    text-align: center;
 }
 
 
 .logo {
     padding: 10px 0;
     margin-left: 100px;
-    display: flex;
-    align-items: center;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+    text-shadow: 0 0 5px #292626, 0 0 10px #292626, 0 0 15px #292626, 0 0 20px #292626, 0 0 25px #292626, 0 0 30px #292626, 0 0 35px #292626;
 }
 
 .container ul {
     list-style: none;
-    display: inline-block;
-    
 }
 
-.container li {
-    display: inline-block;
-}
 
 .container a {
-    display: inline-block;
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
@@ -94,12 +105,9 @@ body {
 }
 
 .container {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 100%;
     margin: 0 auto;
-    background-color: #55d6aa;
     z-index: 1;
 }
 
@@ -115,8 +123,6 @@ input[type=text], select, textarea {
   }
   
 input[type=submit] {
-    background-color: black;
-    color: white;
     padding: 12px 20px;
     border: 1px solid white;
     border-radius: 5px;
@@ -126,16 +132,58 @@ input[type=submit] {
 .container2 {
     margin-top: 200px;
     border-radius: 5px;
-    background-color: #55d6aa;
     padding: 20px;
 }
 
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 103px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #222;
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+
 @media only screen and (max-width: 600px) {
+
+.ColorB {
+        position: relative;
+}  
+
+.ColorE {
+    background-color: #222;
+}
+
+.ColorC {
+    background-color: #55d6aa;
+}
+
+.ColorF {
+    color: white;
+}
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    
     justify-content: center;
     flex-direction: row;
 }
@@ -143,11 +191,8 @@ input[type=submit] {
 .column {
     margin: 5px;
     padding: 5px;
-    background-color: #222;
     text-align: center;
     font-family: "Work Sans", sans-serif;
-    color: white;
-    background-color: #55d6aa;
     flex-direction: column;
     max-width: 70%;
 }
@@ -172,8 +217,6 @@ input[type=submit] {
 }  
 
 .dropbtn {
-    background-color: #444;
-    color: white;
     margin-left: 10%;
     padding: 16px;
     font-size: 95%;
@@ -181,14 +224,12 @@ input[type=submit] {
 }
       
 .dropdown {
-    position: relative;
     display: inline-block;
 }
   
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #444;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -213,7 +254,6 @@ input[type=submit] {
     width: 25%;
     height: 100%;
     position: fixed;    
-    background-color: #55d6aa;
     display: grid;
     align-items: center;
 }
@@ -223,12 +263,12 @@ input[type=submit] {
     padding: 0px ;
     margin: 15px;
     margin-top: 10%;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+    text-shadow: 0 0 5px #292626, 0 0 10px #292626, 0 0 15px #292626, 0 0 20px #292626, 0 0 25px #292626, 0 0 30px #292626, 0 0 35px #292626;
 }
     
 .container a {
     display: grid;
-    color: #444;
+    color: #222;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 95%;
@@ -244,35 +284,3 @@ input[type=submit] {
 
 }
 
-.dropbtn {
-    background-color: #444;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
-  
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #444;
-    width: 103px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-  
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-  
-.dropdown:hover .dropdown-content {display: block;}
