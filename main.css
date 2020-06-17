@@ -1,37 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
-.colorW {
+/* Body,title,text,column */
+.ColorW {
     color: white;
     font-family: "Work Sans", sans-serif;
     text-align: center;
 }   
-
+/*  container,logo,row */
 .ColorA {
     display: flex;
     align-items: center;
 }
-
+/* row,dropdown */
 .ColorB {
     position: relative;
 }
-
+/* container,column */
 .ColorC {
     background-color: #55d6aa;
 }
-
+/* ul,li,a,dropdown */
 .ColorD {
     display: inline-block;
 }
-
+/* dropbtn,dropdown-content,column,input type=sumbit */
 .ColorE {
     background-color: #222;
 }
-
+/* input type=sumbit,dropbtn, */
 .ColorF {
     color: white;
 }
-
-.colorL {
+/* a,classimg */
+.ColorL {
     display: block;
+}
+
+.active {
+    background-color: darkcyan;
 }
 
 .title {
@@ -160,12 +165,10 @@ input[type=submit] {
 
 
 
-
-
 @media only screen and (max-width: 600px) {
 
 .ColorB {
-        position: relative;
+    position: relative;
 }  
 
 .ColorE {
@@ -183,7 +186,6 @@ input[type=submit] {
 .row {
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: center;
     flex-direction: row;
 }
@@ -213,7 +215,6 @@ input[type=submit] {
     margin-left: 30%;
     max-width: 70%;
     padding: 0px;
-
 }  
 
 .dropbtn {
@@ -239,7 +240,7 @@ input[type=submit] {
     padding: 2px;
     display: block;
     width: 70px;
-    height: 20px;
+    height: 30px;
 }
 
 
