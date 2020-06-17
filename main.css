@@ -34,88 +34,85 @@
 .ColorL {
     display: block;
 }
-
+/* edits color of active pages */
 .active {
     background-color: darkcyan;
 }
-
+/* edits size of title */
 .title {
     font-size: 50px;
 }
-
+/* edits size of normal text */
 .text {
     font-size: 20px;
 }
-
+/* edits image in the about page */
 .classimg {
     margin-left: auto;
     margin-right: auto;
     width: 35%;
 }
-
+/* edits properies of row class */
 .row {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
 }
-
+/* edits properties of column class */
 .column {
     margin: 5px;
     padding: 5px;
-    
     flex-direction: column;
 }
-
+/* edits <img> in the column class */
 .column img {
     width: 500px;
     height: 500px;
 
 }
-
+/* edits the width if <div> in column class */
 .column div {
     width: 500px;
 }
-
+/* edits the whole body */
 body {
     margin: 0;
     background: #222;
 }
-
-
+/* edits the logo(CLASSCHAIRS) */
 .logo {
     padding: 10px 0;
     margin-left: 100px;
     text-shadow: 0 0 5px #292626, 0 0 10px #292626, 0 0 15px #292626, 0 0 20px #292626, 0 0 25px #292626, 0 0 30px #292626, 0 0 35px #292626;
 }
-
+/* edits <ul> in container class */
 .container ul {
     list-style: none;
 }
-
-
+/* edits <a> in container class */
 .container a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
 }
-
+/* edits <img> in container class */
 .container img {
     width: 80px;
     margin-right: 100px;
 }
-
+/* edits text when hovering over <a> in container classs */
 .container a:hover {
     color: #000;
 }
-
+/* editts the container class */
 .container {
     justify-content: space-around;
     width: 100%;
     margin: 0 auto;
     z-index: 1;
 }
-
+/* edits the selcted parts in the */
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;
@@ -126,41 +123,42 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+/* edits only input type=sumbit in the forms */
 input[type=submit] {
     padding: 12px 20px;
     border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
 }
-
+/* form div */
 .container2 {
     margin-top: 200px;
     border-radius: 5px;
     padding: 20px;
 }
-
+/* langauge button */
 .dropbtn {
     padding: 16px;
     font-size: 16px;
     border: none;
 }
-  
+/* edits the content when u hover over language tab */ 
 .dropdown-content {
+    transition: ease-in-out;
     display: none;
     position: absolute;
     width: 103px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
+/* edits the <a> in dropdown-content */  
 .dropdown-content a {
     color: #222;
     padding: 12px 16px;
 }
-
+/* makes the box white when hovering to change language */
 .dropdown-content a:hover {background-color: #ddd;}
-  
+/*  */  
 .dropdown:hover .dropdown-content {display: block;}
 
 
