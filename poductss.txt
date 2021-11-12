@@ -1,0 +1,5 @@
+Essentials-Racing;Mesh back with built-in lumbar support Ergonomic Racing Chair;120$;chair1.jpg
+AmazonBasics-Gaming-Chair;Ergonomic Racing Chair;180$;chair2.jpg
+HEALGEN-Footrest;Steep Recline;100$;chair3.jpg
+Soogen-Backtest;Created for comfort;200$;chair4.jpg
+Polar-Aura;Uparalleled confort;120$;chair5.jpg
